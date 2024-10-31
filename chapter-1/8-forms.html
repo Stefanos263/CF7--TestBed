@@ -30,18 +30,21 @@
             <option value="spanish">Ισπανία</option>
         </select>
     </div>
-    <div>
+    <fieldset>
+        <legend>Προσωπικά στοιχεία</legend>
+        <div>
         <label for="firstname">Όνομα:</label>
-        <input type="text" id="firstname" placeholder="Εισάγεται Όνομα" required>
-    </div>
-    <div>
+        <input type="text" id="firstname" placeholder="Εισάγεται Όνομα" required maxlength="15" minlength="3">
+        </div>
+        <div>
         <label for="lastname">Επίθετο:</label>
-        <input type="text" id="lastname" placeholder="Εισάγεται Επίθετο" required>
-    </div>
-    <div>
+        <input type="text" id="lastname" placeholder="Εισάγεται Επίθετο" required maxlength="15" minlength="3">
+        </div>
+        <div>
         <label for="workExperience">Χρόνια Προυπηρεσίας</label>
         <input type="number" id="workExperience">
-    </div>
+        </div>
+    </fieldset>
     <div>
         <label for="birthday">Χρονολογία Γέννησης</label>
         <input type="date" id="birthday">

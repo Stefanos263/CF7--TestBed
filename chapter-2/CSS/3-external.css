@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(114, 111, 111);
+}
+
+h1{
+    color: burlywood;
+}
+
+p, li {
+    color: cornflowerblue;
+    background-color: rgb(94, 74, 8);
+}
+
+.aueb-logo{
+    width: 800px;
+    color: aqua;
+    background-color: coral;
+}
+
+.aueb-text{
+    color: yellow;
+    background-color: brown;
+}
+
+#auebText{
+    color: black;
+    background-color: orange;
+}
+
+p {
+    color: yellow;
+    background-color: red;
+}
+
+ul > li {
+    color: orange;
+}
+
+ul strong {
+    background-color: rgb(196, 193, 193);
+}
+
+ul em {
+    background-color: red;
+}
+
+h1 + p {
+    background-color: orange;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+color: brown;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:focus {
+   background-color: yellow;
+    outline: none;
+}
+
+a:active {
+    background-color: chocolate;
+    color: white;
+}
