@@ -1,0 +1,16 @@
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.social > .fa-facebook{
+color: blue;
+font-size: 2rem;
+}
+
+.social > .fa-hashtag{
+    color: red;
+    font-size: 2rem;
+    }
