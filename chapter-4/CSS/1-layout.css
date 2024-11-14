@@ -22,8 +22,8 @@
     height:200px;
     border: 1px solid black;
     background-color: red;
-    /* width: 400px; */
-    width: 70%;
+    width: 400px;
+    /* width: 70%; */
     float: right;
 }
 
