@@ -23,12 +23,13 @@
                             <li><a href="">Διασύνδεση</a></li>
                             <li><a href="">Υπηρεσίες</a></li>
                         </ul>
-                
+                    </li>
                     <li><a href="">We Educate</a></li>
                     <li><a href="">We Innovate</a></li>
                     <li><a href="">We Are</a></li>
                 </ul>
             </nav>
+
             <div class="nav-toggle">
                 <button type="button">
                     <i class="fa-solid fa-bars"></i>
@@ -52,6 +53,7 @@
                 <li><a href="">We Are</a></li>
             </ul>
         </div>        
+
 
         <div class="home-img gap-bottom">
             <div class="home-title">
@@ -87,6 +89,21 @@
                 <i class="fa-brands fa-x-twitter"></i>
             </div>
         </footer>
-    </div>    
+    </div>
+    
+    <script>
+        const img = document.querySelector('.home-img');
+        const toggleBtn = document.querySelector('.nav-toggle');
+        const navBarToggle = document.querySelector('.navbar-toggle');
+        const main = document.querySelector('.main');
+        const footer = document.querySelector('.footer');
+        
+        toggleBtn.addEventListener('click', function(){
+            // alert("My program");
+            img.classList.toggle('hidden');
+            navBarToggle.classList.toggle('show');
+        })
+
+    </script>
 </body>
 </html>
